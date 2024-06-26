@@ -1,0 +1,17 @@
+.profile {
+  background-color: fff;
+}
+.description {
+  text-align: center;
+}
+.stats {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+}
