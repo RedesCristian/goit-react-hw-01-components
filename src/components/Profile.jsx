@@ -1,28 +1,31 @@
 import React from 'react';
-import './Profile.css';
+import css from './Profile.module.css';
+import { AiOutlineEnvironment } from 'react-icons/ai';
 
 const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
-    <div class="profile">
-      <div className="description">
-        <img src={avatar} alt={username} className="avatar" />
-        <p className="name">{username}</p>
-        <p className="tag">{tag}</p>
-        <p className="location">{location}</p>
+    <div className={css.profile}>
+      <div className={css.description}>
+        <img src={avatar} alt={username} className={css.avatar} />
+        <h2 className={css.name}>{username}</h2>
+        <p className={css.tag}>{tag}</p>
+        <p className={css.location}>
+          <AiOutlineEnvironment />
+          {location}
+        </p>
       </div>
-
-      <ul className="stats">
-        <li className="list">
-          <span className="label">Followers{stats.followers}</span>
-          <span className="quantity"></span>
+      <ul className={css.stats}>
+        <li className={css.list}>
+          <span className={css.label}>Followers</span>
+          <span className={css.quantity}>{`${stats.followers}`}</span>
         </li>
-        <li className="list">
-          <span className="label">Views{stats.views}</span>
-          <span className="quantity"></span>
+        <li className={css.list}>
+          <span className={css.label}>Views</span>
+          <span className={css.quantity}>{`${stats.views}`}</span>
         </li>
-        <li className="list">
-          <span className="label">Likes{stats.likes}</span>
-          <span className="quantity"></span>
+        <li className={css.list}>
+          <span className={css.label}>Likes</span>
+          <span className={css.quantity}>{`${stats.likes}`}</span>
         </li>
       </ul>
     </div>
