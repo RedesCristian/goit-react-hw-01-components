@@ -9,10 +9,12 @@ const Profile = ({ username, tag, location, avatar, stats }) => {
         <img src={avatar} alt={username} className={css.avatar} />
         <h2 className={css.name}>{username}</h2>
         <p className={css.tag}>{tag}</p>
-        <p className={css.location}>
-          <AiOutlineEnvironment />
-          {location}
-        </p>
+        <div className={css.backgroundImage}>
+          <p className={css.location}>
+            <AiOutlineEnvironment />
+            {location}
+          </p>
+        </div>
       </div>
       <ul className={css.stats}>
         <li className={css.list}>

@@ -5,6 +5,17 @@
   justify-content: center;
   flex-direction: column;
   width: 45%;
+  border-style: outset;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.backgroundImage {
+  background-image: url('../images/jamaica-flag.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  font-weight: 700;
 }
 .description {
   text-align: center;
@@ -36,7 +47,9 @@
   border-radius: 50%;
   width: 50%;
   padding-top: 25px;
-  background-color: teal;
+  background-image: url('../images/jamaica.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .tag {
   color: teal;
