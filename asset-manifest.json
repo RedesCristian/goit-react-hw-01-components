@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-01-components/static/css/main.6be67df1.css",
-    "main.js": "/goit-react-hw-01-components/static/js/main.2a5d518e.js",
+    "main.css": "/goit-react-hw-01-components/static/css/main.3706dbb8.css",
+    "main.js": "/goit-react-hw-01-components/static/js/main.de9b47d3.js",
+    "static/media/jamaica-flag.jpg": "/goit-react-hw-01-components/static/media/jamaica-flag.80d685c5b51cadf6b291.jpg",
+    "static/media/jamaica.jpg": "/goit-react-hw-01-components/static/media/jamaica.5c86775f970eee11f914.jpg",
+    "static/media/stats-jamaica.jpg": "/goit-react-hw-01-components/static/media/stats-jamaica.42fe78bb03b334bb91bf.jpg",
     "index.html": "/goit-react-hw-01-components/index.html",
-    "main.6be67df1.css.map": "/goit-react-hw-01-components/static/css/main.6be67df1.css.map",
-    "main.2a5d518e.js.map": "/goit-react-hw-01-components/static/js/main.2a5d518e.js.map"
+    "main.3706dbb8.css.map": "/goit-react-hw-01-components/static/css/main.3706dbb8.css.map",
+    "main.de9b47d3.js.map": "/goit-react-hw-01-components/static/js/main.de9b47d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.6be67df1.css",
-    "static/js/main.2a5d518e.js"
+    "static/css/main.3706dbb8.css",
+    "static/js/main.de9b47d3.js"
   ]
 }
